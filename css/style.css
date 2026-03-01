@@ -139,3 +139,20 @@ main section.principal div.searchBar button:hover {
     color: var(--light-gray);
     transition: all 0.3s; 
 }
+
+main section.principal div.waveDivisor {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+}
+
+main section.principal div.waveDivisor svg {
+    width: 100%;
+    height: 100px;
+}
+
+main section.principal div.waveDivisor .shape-fill {
+    fill: var(--white);
+}
