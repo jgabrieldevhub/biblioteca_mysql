@@ -66,7 +66,7 @@ nav .navLinks a:hover{
 
 nav a.btnDocument {
     background: var(--accent);
-    color: white;
+    color: var(--white);
     padding: 0.8rem 1.5rem;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(2, 115, 104, 0.3);
@@ -79,3 +79,63 @@ nav a.btnDocument:hover {
     transition: all 0.3s; 
 }
 
+main section.principal {
+    position:relative;
+    padding: 100px 10% 200px;
+    text-align: center;
+    background: linear-gradient(180deg, var(--primary) 0%, #222035 100%);
+}
+
+main section div.principalMain h1{
+    font-size: 4.5rem;
+    margin: 20px 0;
+    line-height: 1.1;
+}
+
+main section div.principalMain h1 span {
+    color: var(--accent);
+}
+
+main section div.principalMain p {
+    color: var(--light-gray);
+    max-width: 600px;
+    margin: 0 auto 46px;
+    font-size: 1.2rem;
+}
+
+main section.principal div.searchBar {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 8px;
+    border-radius: 15px;
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+main section.principal div.searchBar input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    padding: 15px;
+    color: var(--white);
+    font-size: 1rem;
+    outline: none;
+}
+
+main section.principal div.searchBar button {
+    background: var(--accent);
+    color: var(--white);
+    border: none;
+    font-size: 1rem;
+    padding: 0 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+main section.principal div.searchBar button:hover {
+    background: #02534b;
+    color: var(--light-gray);
+    transition: all 0.3s; 
+}
