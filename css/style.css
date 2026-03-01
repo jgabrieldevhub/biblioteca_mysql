@@ -244,3 +244,37 @@ main section code {
 main section code b {
     color: var(--accent);
 }
+
+main section .xamppStatus {
+    width: 100%;
+    background: #eee;
+    padding: 15px;
+    border-radius: 5px;
+    color: #333;
+}
+
+main section .xamppStatus .statusItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: var(--white);
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+main section .xamppStatus .statusItem .led {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #ccc;
+}
+
+main section .xamppStatus .statusItem .ledOn {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #2ecc71;
+    box-shadow: 0 0 10px #2ecc71;
+}
