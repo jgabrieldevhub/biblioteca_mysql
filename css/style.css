@@ -269,6 +269,7 @@ main section .xamppStatus .statusItem .led {
     height: 12px;
     border-radius: 50%;
     background: #ccc;
+    cursor: pointer;
 }
 
 main section .xamppStatus .statusItem .ledOn {
@@ -277,4 +278,31 @@ main section .xamppStatus .statusItem .ledOn {
     border-radius: 50%;
     background: #2ecc71;
     box-shadow: 0 0 10px #2ecc71;
+    cursor: pointer;
+}
+
+main section .containerTable {
+    width: 100%;
+    height: 150px;
+    background: #fff;
+    border: 2px solid var(--accent);
+    display: flex;
+}
+
+main section .sideBlock {
+    width: 30%;
+    background: #f0f0f0;
+    border-right: 1px solid #ddd;
+}
+
+main section .table {
+    width: 70%;
+    padding: 10px;
+}
+
+main section .row {
+    height: 10px;
+    background: #eee;
+    margin-bottom: 8px;
+    width: 100%;
 }
