@@ -215,6 +215,23 @@ main section .infoText p {
     font-size: 1.1rem;
     line-height: 1.7;
     color: var(--gray);
+    margin-bottom: 30px;
+}
+
+main section .btnLink {
+    background: var(--accent);
+    color: var(--white);
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(2, 115, 104, 0.3);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+main section .btnLink:hover {
+    background: #02534b;
+    color: var(--light-gray);
+    transition: all 0.3s; 
 }
 
 main section .infoVisual {
