@@ -475,10 +475,4 @@ footer .footerAcentLine {
         display: flex;
         flex-direction: column;
     }
-
-    footer .responseLinks {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
 }
