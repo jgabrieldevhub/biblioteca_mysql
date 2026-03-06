@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/docs.css">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <script src="js/script.js"></script>
+    <title>Documentação - MySQLLib</title>
+</head>
+<body class="docsPage">
+    
+    <header>
+        <nav>
+            <a href="index.html" class="logo">MySQL<span>Lib</span></a>
+            <ul class="navLinks">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="document.html" class="btnDocument">Documentação</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="docsContainer">
+        <aside class="sideBar">
+            <h4>Introdução</h4>
+            <a href="#inicio" class="active">O que é SQL?</a>
+
+            <h4>Comandos Básicos</h4>
+            <a href="#">SELECT</a>
+            <a href="#">INSERT</a>
+            <a href="#">UPDATE</a>
+            <a href="#">DELETE</a>
+
+            <h4>Avançado</h4>
+            <a href="#">JOIN</a>
+            <a href="#">ALTER TABLE</a>
+        </aside>
+  
+
+        <main class="docsContent">
+            <section id="intro">
+                <h1>Documentação MySQL</h1>
+                <p>Bem-vindo à referência rápida da MySQLLib. Aqui encontras os comandos essenciais para gerir as tuas bases de dados.</p>
+                <hr>
+            </section>
+
+            <section id="select">
+                <h2>Comando SELECT FROM</h2>
+                <p>A introdução</p>
+                <code>SELECT * FROM tb_usuarios</code>
+                <p>é utilizada para selcecionar dados de uma base de dados</p>
+
+                <div class="infoNota">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <p>Use o asterisco (*) para selecionar todas as colunas de uma tabela</p>
+                </div>
+            </section>
+
+            <section id="insert">
+                <h2>Comando INSERT INTO</h2>
+                <p>Utilizado para inserir novos registros numa tabela.</p>
+                <div class="codeExample">
+                    <pre><code><span>INSERT INTO</span> usuarios (nome, idade)
+<span>VALUES</span> ('Jorge Gabriel', 19)</code></pre>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <div class="footerWave">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V95.8C58.47,105.1,123.47,105.5,182.5,92.2c56.22-12.65,110.85-25.83,168-35.76Z" class="shape-fill"></path>
+        </svg>
+        </div>
+
+        <div class="footerContent">
+            <div class="footerBrand">
+                <a href="index.html" class="logo">MySQL<span>Lib</span></a>
+                <p>A tua biblioteca digital de referência para o ecossistema MySQL. Simplificando a gestão de dados para desenvolvedores.</p>
+            </div>
+
+                <div class="footerLinks">
+                <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="#">Comandos</a></li>
+                        <li><a href="#">XAMPP</a></li>
+                        <li><a href="#">DBeaver</a></li>
+                    </ul>
+                </div>    
+
+                <div class="footerSocial">
+                    <h4>Minhas Redes</h4>
+                    <div class="socialIcons">
+                        <a target="https://github.com/jgabrieldevhub" href="https://github.com/jgabrieldevhub"><i class="fa-brands fa-github fa-2xl"></i></a>
+                        <a target="https://www.linkedin.com/in/jorge-gabriel-dev/" href="https://www.linkedin.com/in/jorge-gabriel-dev/" ><i class="fa-brands fa-square-linkedin fa-2xl"></i></a>
+                    </div>    
+                </div>    
+        </div>    
+
+            <div class="footerBottom">
+                <p>&copy; 2026 MySQLLib. Projeto Desenvolvido referente as aulas de Banco de Dados</p>
+            <div class="footerAcentLine"></div>
+        </div>
+    </footer>
+
+</body>
+</html>

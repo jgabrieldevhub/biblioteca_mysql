@@ -17,8 +17,7 @@ html {
 }
 
 body {
-    background-color: var(--primary);
-    color: var(--white);
+    background: var(--white);
     font-family: sans-serif;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -29,8 +28,8 @@ body::-webkit-scrollbar {
 }
 
 header {
-    padding: 1.5rem 10%;
-    background: rgba(25, 23, 38, 0.8);
+    padding: 1.5rem 7%;
+    background: var(--primary);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -38,7 +37,7 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -96,6 +95,7 @@ main section.principal {
 }
 
 main section div.principalMain h1{
+    color: var(--white);
     font-size: 4.5rem;
     margin: 20px 0;
     line-height: 1.1;
@@ -173,12 +173,12 @@ main section.infoBlock {
     justify-content: center;
 }
 
-main section.infoBlock.bgWhite {
+main section#mySql, #dBeaver{
     background-color: var(--white);
     color: var(--primary);
 }
 
-main section.infoBlock.bgBlack {
+main section#xampp {
     background-color: var(--primary);
     color: var(--white);
 }
@@ -332,6 +332,10 @@ main section .row {
     background: #eee;
     margin-bottom: 8px;
     width: 100%;
+}
+
+footer {
+    background: var(--primary);
 }
 
 footer .footerWave {
