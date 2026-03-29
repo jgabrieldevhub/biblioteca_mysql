@@ -359,10 +359,10 @@ footer .footerWave .shape-fill {
 
 footer .footerContent {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr 0.5fr;
     gap: 50px;
     padding: 60px 10% 40px;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
